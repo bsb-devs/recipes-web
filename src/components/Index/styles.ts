@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-export const Teste = styled.div`
-	h2 {
-		background-color: red;
-	}
+export const IndexPage = styled.div`
+	height: 100%;
 `;

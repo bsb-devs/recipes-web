@@ -1,15 +1,17 @@
 import React from 'react';
 
-import {Teste} from './styles';
+import {IndexPage} from './styles';
+
+import RecipeCard from '../RecipeCard';
 
 function Index() {
 	return(
-		<>
-
-			<Teste>
-				<h2>Index</h2>
-			</Teste>
-		</>
+		<IndexPage>
+			<RecipeCard />
+			<RecipeCard />
+			<RecipeCard />
+			<RecipeCard />
+		</IndexPage>
 	)
 }
 
